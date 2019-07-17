@@ -8,7 +8,7 @@ import android.os.Parcelable;
 
 @Entity(tableName = "tbl_notes")
 public class Note implements Parcelable {
-    public boolean hasDatabaseId = false;
+    public boolean hasDatabaseId = false ;
     @PrimaryKey(autoGenerate = true)
     private int id ;
     private String title;
